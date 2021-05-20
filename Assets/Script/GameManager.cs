@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour {
     {
         if(tmpName == null)
         {
-            tmpName = GameObject.Find("SavedNameTmp").GetComponent<TextMeshProUGUI>();
+            tmpName = GameObject.Find("SavedName").GetComponent<TextMeshProUGUI>();
         }
 
         tmpName.text = nameData.yourName;
